@@ -37,6 +37,8 @@ Exibição da interface atualizada após a exclusão de um item específico, mos
 
 ![Após Exclusão Individual](https://github.com/user-attachments/assets/0d778199-234d-488c-9db6-f4fd18941af1)
 
+### Tela  RM 
+
 ![Tela de RM](https://github.com/user-attachments/assets/77b16fbf-f942-45b9-8375-15ab70ad8c42)
 
 
