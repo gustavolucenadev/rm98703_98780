@@ -14,24 +14,22 @@ import com.gs.rm98703_98780.model.ItemsViewModelFactory
 import com.gs.rm98703_98780.util.ItemsAdapter
 import com.gs.rm98703_98780.viewmodel.ItemsViewModel
 import java.util.Calendar
+import android.content.Intent
 
 class MainActivity : AppCompatActivity() {
 
-    // Componentes de UI
     private lateinit var eventLocation: EditText
     private lateinit var eventType: EditText
     private lateinit var eventImpactLevel: EditText
     private lateinit var eventDate: EditText
     private lateinit var eventAffectedPeopleNumber: EditText
 
-    // ViewModel e Adapter
     private lateinit var viewModel: ItemsViewModel
     private lateinit var itemsAdapter: ItemsAdapter
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-
         setupToolbar()
         initializeViews()
         setupRecyclerView()
@@ -39,6 +37,12 @@ class MainActivity : AppCompatActivity() {
         setupButtonListener()
         initializeViewModel()
         setupObservers()
+
+        val buttonOpenRms = findViewById<Button>(R.id.buttonOpenRms)
+        buttonOpenRms.setOnClickListener {
+            val intent = Intent(this, RmsActivity::class.java)
+            startActivity(intent)
+        }
     }
 
     private fun setupToolbar() {
