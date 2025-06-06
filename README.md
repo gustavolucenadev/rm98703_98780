@@ -39,6 +39,15 @@ Exibição da interface atualizada após a exclusão de um item específico, mos
 
 ### Tela  RM 
 
-![Tela de RM](https://github.com/user-attachments/assets/77b16fbf-f942-45b9-8375-15ab70ad8c42)
+![image](https://github.com/user-attachments/assets/4014f368-ec58-4335-9e79-05b4450df125)
+
+
+### Para abrir a tela de RMS
+clique nesse botão
+
+![image](https://github.com/user-attachments/assets/32bb4dd7-1c78-4fe5-bbc9-0f234d560c23)
+
+
+
 
 
