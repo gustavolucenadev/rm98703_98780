@@ -22,6 +22,9 @@ Visualização da interface em modo tela cheia, demonstrando o layout completo e
 
 ---
 
+
+
+
 ### Validação de Campo Vazio  
 Exemplo da validação que impede o envio com campos vazios, garantindo que os dados obrigatórios sejam preenchidos.
 
@@ -33,5 +36,7 @@ Exemplo da validação que impede o envio com campos vazios, garantindo que os d
 Exibição da interface atualizada após a exclusão de um item específico, mostrando a remoção dinâmica da lista.
 
 ![Após Exclusão Individual](https://github.com/user-attachments/assets/0d778199-234d-488c-9db6-f4fd18941af1)
+
+![Tela de RM](https://github.com/user-attachments/assets/77b16fbf-f942-45b9-8375-15ab70ad8c42)
 
 
